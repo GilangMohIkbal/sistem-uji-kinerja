@@ -1,0 +1,143 @@
+{
+  "package": "UKIN PPG UNJ context",
+  "version": "1.0",
+  "created": "2026-11-06",
+  "implementationIncluded": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 154,
+      "sha256": "ec59a851472de087005d1f17c100e4540cb0a7db81c8834b72ef60a4a91b74aa"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3525,
+      "sha256": "fab5db1ff16072dbdb7c078cfac0ab711c87178737463001830c1be0a243e6d3"
+    },
+    {
+      "path": "CODEX_PROMPT.md",
+      "bytes": 3571,
+      "sha256": "0096c365799e579b807c8abc811f9ba75a4e5651b46898d4c6f2242509fa09e7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5076,
+      "sha256": "14d867819342a31ca2f6fc4a4702ed9127317592725c65f1e9f52dd29233db03"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 9304,
+      "sha256": "24b5d2f4f6e34ff3acbdadabf539a304be694ee5f8811e9e97a435bd6f621988"
+    },
+    {
+      "path": "docs/ASSESSMENT_AND_WORKFLOW.md",
+      "bytes": 10436,
+      "sha256": "9b09beae693dec422089a7af284bea7ebdbabe4612feb74026b96ab8d07e3e7e"
+    },
+    {
+      "path": "docs/DECISIONS_AND_SOURCES.md",
+      "bytes": 7368,
+      "sha256": "ef60b99123b853fdb243046b38430ded7c8bb85567842865a25d2197bdfd1d80"
+    },
+    {
+      "path": "docs/DEMO_GUIDE.md",
+      "bytes": 4595,
+      "sha256": "ac5c4127b8ec359b1bc12e3cf17621c93864989661fddff3244123a3d4009e34"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "bytes": 5600,
+      "sha256": "f282787021fb826dc7a21faafa7a4b606f2255bdf43409fb5d41f4e629690d88"
+    },
+    {
+      "path": "docs/DESIGN_SYSTEM.md",
+      "bytes": 4724,
+      "sha256": "4014c382d6a6e0fd87f18ca3d03f40a0afad9d808fe7fe722cd9275a587e98d9"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_PLAN.md",
+      "bytes": 4920,
+      "sha256": "81657a277030137d181ed54ef424e2636606bd80655e93b66ee4ccc7d6ea5f9b"
+    },
+    {
+      "path": "docs/PPG_UNJ_DESIGN_FOUNDATION.md",
+      "bytes": 5489,
+      "sha256": "1ba4c0aea4b9448aab4a7960b4789ccb01bdafbf597ce40aeeab95e80a9a90e2"
+    },
+    {
+      "path": "docs/PRD.md",
+      "bytes": 12411,
+      "sha256": "5837db67f2cdfba31c44231b25de7ac68a94b375c4848172f033b08926cb303d"
+    },
+    {
+      "path": "docs/PROGRESS.md",
+      "bytes": 2360,
+      "sha256": "0dfb3bcb163bf2836a671a1626f8e6b9b6aabbe2d13d7bee3546f46bda83c6d5"
+    },
+    {
+      "path": "docs/RUBRIC_DEMO.md",
+      "bytes": 7869,
+      "sha256": "b331c14a60a91a67e1be475ed963a37f85e6347077d1238904b3057854000db2"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 2350,
+      "sha256": "002a5bfd272ee5110e408df0136ef449ac61e1ae11ca6064055c1030a9a3a112"
+    },
+    {
+      "path": "references/brand-tokens.css",
+      "bytes": 548,
+      "sha256": "3528d891df1eeafb6cd1d6a8751c5a9a9c04311570b9bfe675bbcca428261e0a"
+    },
+    {
+      "path": "references/brand.tokens.json",
+      "bytes": 864,
+      "sha256": "0c5c4ac5c51bc649ce272795bdc27044c5347be4da261fa9fc71675e64c3d193"
+    },
+    {
+      "path": "references/rubric-demo.v1.json",
+      "bytes": 8740,
+      "sha256": "49ae838d85af431778ad85d17c98ae53e821915dc5c27f881500777cc587b2ed"
+    },
+    {
+      "path": "references/screenshots/exam-landing-login.png",
+      "bytes": 667143,
+      "sha256": "f459ea5925e530f3bcecf1f351701128625b7a6c683ed033ce94f4211abcc640"
+    },
+    {
+      "path": "references/screenshots/lms-dashboard.png",
+      "bytes": 284371,
+      "sha256": "14636ea49c924cd062310c590c57276cacdf386c20c8c4975cc99f0387091724"
+    },
+    {
+      "path": "references/screenshots/lms-landing.png",
+      "bytes": 246917,
+      "sha256": "e50434a1896bcfd12ced046ea0cb4fe1fb07ce877190af0bb7f0a58fecf46e80"
+    },
+    {
+      "path": "references/screenshots/lms-login.png",
+      "bytes": 379064,
+      "sha256": "8f9fc1714b649452090761e9311b6114cbd8dc1fd72ccbcbe8fb1c85e2525b79"
+    },
+    {
+      "path": "references/screenshots/national-assessment-summary.png",
+      "bytes": 68010,
+      "sha256": "dc78b1e9666fbfc93e53ae396cc4df360e6d836b514daacf09e53fcbe1efbce2"
+    },
+    {
+      "path": "references/screenshots/national-assessment-table-header.png",
+      "bytes": 4533,
+      "sha256": "f72a40632b9c81f7309f4509600b63778325b04d0da492b5baca9065facf2d0d"
+    },
+    {
+      "path": "references/screenshots/national-examiner-sidebar.png",
+      "bytes": 17107,
+      "sha256": "61b06fde6eaa2cd5f09077892f30f84f53bf451543218603ed88ca6c3b2ef16d"
+    },
+    {
+      "path": "references/screenshots/national-manager-sidebar.png",
+      "bytes": 30413,
+      "sha256": "6aaf029b1ef1aa0991dd7be76513c6878e22c101a145c768b1de638e138a3c45"
+    }
+  ]
+}

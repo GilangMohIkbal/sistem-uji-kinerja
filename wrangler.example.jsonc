@@ -1,0 +1,10 @@
+{
+  // Template only. Copy to wrangler.jsonc after the NEW UKIN target is approved.
+  "name": "replace-with-approved-ukin-worker",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "directory": "./.output/public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "id": "ukin-demo-rubric-v1",
+  "schemaVersion": 1,
+  "version": "1.0",
+  "title": "Instrumen Simulasi UKIN PPG UNJ",
+  "isOfficial": false,
+  "label": "Rubrik demo — bukan instrumen resmi UKPPPG",
+  "scale": {
+    "minimum": 1,
+    "maximum": 4,
+    "integerOnly": true,
+    "unscored": null
+  },
+  "aggregation": {
+    "component": "sum_over_maximum",
+    "overall": null,
+    "reviewerCombination": null,
+    "passThreshold": null
+  },
+  "components": [
+    {
+      "id": "perangkat",
+      "title": "Perangkat pembelajaran",
+      "required": true,
+      "indicators": [
+        {
+          "id": "P1",
+          "title": "Tujuan dan keselarasan",
+          "focus": "Keterkaitan tujuan, kegiatan, dan asesmen dalam rancangan.",
+          "required": true,
+          "descriptors": {
+            "1": "Tujuan tidak jelas; hubungan kegiatan dan asesmen dengan tujuan tidak dapat ditelusuri.",
+            "2": "Tujuan tersedia, tetapi beberapa kegiatan atau asesmen belum mengukur tujuan yang sama.",
+            "3": "Tujuan jelas dan sebagian besar kegiatan serta asesmen selaras; ada kekurangan kecil yang spesifik.",
+            "4": "Tujuan, urutan kegiatan, dan asesmen saling mendukung dengan bukti pemetaan yang jelas."
+          }
+        },
+        {
+          "id": "P2",
+          "title": "Kebutuhan peserta didik",
+          "focus": "Dasar pemilihan dukungan belajar dan penyesuaian kegiatan.",
+          "required": true,
+          "descriptors": {
+            "1": "Rancangan tidak menjelaskan kebutuhan peserta didik atau dukungan yang dipilih.",
+            "2": "Kebutuhan disebut umum; hubungan dengan penyesuaian kegiatan masih lemah.",
+            "3": "Kebutuhan diuraikan dengan contoh bukti dan diikuti dukungan yang relevan.",
+            "4": "Kebutuhan didukung bukti, variasi dukungan beralasan, dan cara mengevaluasi kecocokannya jelas."
+          }
+        },
+        {
+          "id": "P3",
+          "title": "Kegiatan dan sumber belajar",
+          "focus": "Kejelasan langkah, penggunaan waktu, sumber, dan partisipasi.",
+          "required": true,
+          "descriptors": {
+            "1": "Langkah sulit diikuti atau sumber tidak mendukung aktivitas yang dirancang.",
+            "2": "Langkah dasar tersedia, tetapi waktu, sumber, atau partisipasi peserta didik belum cukup dijelaskan.",
+            "3": "Urutan, sumber, dan kegiatan peserta didik jelas serta masuk akal untuk tujuan belajar.",
+            "4": "Urutan, sumber, waktu, dan kesempatan partisipasi tersusun koheren dengan alternatif bila muncul kendala."
+          }
+        },
+        {
+          "id": "P4",
+          "title": "Asesmen dan tindak lanjut",
+          "focus": "Bukti belajar yang dikumpulkan, kriteria, dan pemanfaatannya.",
+          "required": true,
+          "descriptors": {
+            "1": "Tidak ada cara yang jelas untuk mengumpulkan atau menilai bukti belajar.",
+            "2": "Instrumen tersedia, tetapi kriteria atau tindak lanjut belum terkait tujuan secara memadai.",
+            "3": "Instrumen dan kriteria sesuai tujuan; tindak lanjut utama dijelaskan.",
+            "4": "Bukti, instrumen, kriteria, umpan balik, dan tindak lanjut terhubung serta dapat digunakan secara praktis."
+          }
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "title": "Video praktik pembelajaran",
+      "required": true,
+      "indicators": [
+        {
+          "id": "V1",
+          "title": "Kejelasan fasilitasi",
+          "focus": "Tujuan, instruksi, dan penjelasan selama praktik.",
+          "required": true,
+          "descriptors": {
+            "1": "Instruksi/penjelasan yang tampak pada bukti sulit diikuti dan tidak memberi arah belajar.",
+            "2": "Arah belajar muncul, tetapi penjelasan atau instruksi penting masih membingungkan.",
+            "3": "Arah, instruksi, dan penjelasan umumnya jelas dengan contoh yang relevan.",
+            "4": "Fasilitasi jelas, runtut, dan responsif terhadap kebutuhan pemahaman yang terlihat."
+          }
+        },
+        {
+          "id": "V2",
+          "title": "Partisipasi dan interaksi",
+          "focus": "Kesempatan berpikir, merespons, serta interaksi yang mendukung.",
+          "required": true,
+          "descriptors": {
+            "1": "Bukti menunjukkan kesempatan partisipasi sangat terbatas tanpa upaya menggali pemahaman.",
+            "2": "Ada pertanyaan/aktivitas, tetapi partisipasi dan tanggapan masih terbatas atau tidak ditindaklanjuti.",
+            "3": "Peserta didik memperoleh kesempatan merespons dan pengajar menindaklanjuti respons secara relevan.",
+            "4": "Interaksi mendorong alasan/pemahaman, melibatkan peserta didik secara bermakna, dan ditanggapi dengan dukungan sesuai bukti."
+          }
+        },
+        {
+          "id": "V3",
+          "title": "Lingkungan belajar",
+          "focus": "Pengelolaan aktivitas dan komunikasi yang menghargai peserta didik.",
+          "required": true,
+          "descriptors": {
+            "1": "Pengelolaan yang tampak tidak membantu aktivitas belajar atau komunikasi tidak mendukung.",
+            "2": "Pengelolaan dasar ada, tetapi transisi/dukungan masih menghambat beberapa aktivitas.",
+            "3": "Aktivitas terkelola dan komunikasi mendukung lingkungan yang menghargai peserta didik.",
+            "4": "Pengelolaan adaptif, transisi jelas, dan dukungan menjaga partisipasi serta penghargaan terhadap peserta didik."
+          }
+        },
+        {
+          "id": "V4",
+          "title": "Asesmen dan respons pengajar",
+          "focus": "Pemeriksaan pemahaman serta tindak lanjut di dalam pembelajaran.",
+          "required": true,
+          "descriptors": {
+            "1": "Tidak terlihat pemeriksaan pemahaman yang dapat digunakan untuk menentukan respons pengajar.",
+            "2": "Ada pemeriksaan, tetapi respons pengajar belum jelas terkait bukti yang diperoleh.",
+            "3": "Pemeriksaan pemahaman dan umpan balik relevan terlihat; ada tindak lanjut terhadap respons.",
+            "4": "Pengajar menggunakan beberapa bukti pemahaman, memberikan umpan balik spesifik, dan menyesuaikan dukungan secara beralasan."
+          }
+        }
+      ]
+    },
+    {
+      "id": "studi_kasus",
+      "title": "Studi kasus",
+      "required": true,
+      "indicators": [
+        {
+          "id": "K1",
+          "title": "Rumusan masalah dan konteks",
+          "focus": "Masalah spesifik yang didukung informasi konteks relevan.",
+          "required": true,
+          "descriptors": {
+            "1": "Masalah tidak terdefinisi atau konteks tidak cukup untuk memahami kasus.",
+            "2": "Masalah disebut, tetapi masih umum dan bukti konteks terbatas.",
+            "3": "Masalah spesifik dengan konteks serta bukti yang relevan.",
+            "4": "Masalah dirumuskan tajam, bukti konteks memadai, dan batas analisis dinyatakan."
+          }
+        },
+        {
+          "id": "K2",
+          "title": "Tindakan dan alasan",
+          "focus": "Kesesuaian tindakan dengan masalah yang dibahas.",
+          "required": true,
+          "descriptors": {
+            "1": "Tindakan tidak dijelaskan atau tidak berhubungan dengan masalah.",
+            "2": "Tindakan dijelaskan, tetapi alasan pemilihannya belum kuat.",
+            "3": "Tindakan relevan dan alasan didukung pertimbangan konteks belajar.",
+            "4": "Tindakan, alternatif, dan alasan pemilihan dianalisis koheren dengan kebutuhan serta keterbatasan kasus."
+          }
+        },
+        {
+          "id": "K3",
+          "title": "Bukti hasil dan interpretasi",
+          "focus": "Kualitas bukti hasil dan ketepatan kesimpulan.",
+          "required": true,
+          "descriptors": {
+            "1": "Kesimpulan tidak disertai bukti hasil yang dapat ditinjau.",
+            "2": "Ada hasil deskriptif, tetapi bukti atau hubungan dengan tindakan belum cukup jelas.",
+            "3": "Hasil didukung bukti dan diinterpretasikan sesuai tujuan tindakan.",
+            "4": "Interpretasi membandingkan bukti relevan, menghindari klaim berlebihan, dan mengakui keterbatasan."
+          }
+        },
+        {
+          "id": "K4",
+          "title": "Refleksi dan tindak lanjut",
+          "focus": "Pembelajaran dari pengalaman dan rencana perbaikan.",
+          "required": true,
+          "descriptors": {
+            "1": "Tidak ada refleksi atau tindak lanjut yang bermakna.",
+            "2": "Refleksi bersifat umum dan rencana perbaikan belum operasional.",
+            "3": "Refleksi terkait bukti dan menghasilkan tindak lanjut yang dapat dilakukan.",
+            "4": "Refleksi kritis menghubungkan kekuatan/keterbatasan dengan langkah perbaikan serta cara memeriksa hasilnya."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+name: UKIN Linux preflight (no deployment)
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - run: npm install --global npm@11.21.1
+      - run: npm ci --include=optional --fetch-retries=0 --fetch-timeout=30000
+      - run: node scripts/verify-lock.mjs
+      - run: npm run test
+      - run: npm run typecheck
+      - run: npm run verify
+      - run: npm run generate
+      - run: npm run verify:output

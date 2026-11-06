@@ -1,0 +1,20 @@
+/* Reference token snapshot for UKIN; not a drop-in copy of the LMS app. */
+:root {
+  --brand: #007F6D;
+  --brand-dark: #005C53;
+  --brand-deep: #063D39;
+  --accent: #52E0BF;
+  --ink: #142B40;
+  --muted: #506579;
+  --canvas: #F3F7FA;
+  --paper: #FFFFFF;
+  --line: #D7E2E8;
+  --control-border: #7A8E9E;
+  --tint: #E8F7F2;
+  --warning: #93450D;
+  --danger: #B42335;
+  --focus: #2376D2;
+  --font-sans: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --brand-gradient: linear-gradient(125deg, #005C53, #007F6D);
+  --shadow: 0 10px 30px #102D4010;
+}
